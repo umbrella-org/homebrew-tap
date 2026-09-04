@@ -1,28 +1,28 @@
 class Messgr < Formula
   desc "messgr control-plane and service binaries"
   homepage "https://github.com/umbrella-org/messgr"
-  version "0.1.0"
+  version "0.2.0"
   license "UNLICENSED"
 
   on_macos do
     on_arm do
-      url "https://github.com/umbrella-org/messgr/releases/download/v0.1.0/messgr_0.1.0_darwin_arm64.tar.gz"
-      sha256 "02395b0a69f9562bbc5d1ee624ef4eb170afa72a9706e867d0ec3a6bdd8fa9d4"
+      url "https://github.com/umbrella-org/messgr/releases/download/v0.2.0/messgr_0.2.0_darwin_arm64.tar.gz"
+      sha256 "4e0b12053aec37aec8af61007dfb5af1721697edbda3354cb2d7df396266eaec"
     end
     on_intel do
-      url "https://github.com/umbrella-org/messgr/releases/download/v0.1.0/messgr_0.1.0_darwin_amd64.tar.gz"
-      sha256 "fe02cce636d372820a1a22a70e829ead14272e9d911d481e1f78dc32ba487539"
+      url "https://github.com/umbrella-org/messgr/releases/download/v0.2.0/messgr_0.2.0_darwin_amd64.tar.gz"
+      sha256 "475be67af69ebf8137fa2e5df2f8f8688a9c50e8be57edfcc0f5994d2aa378cc"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/umbrella-org/messgr/releases/download/v0.1.0/messgr_0.1.0_linux_amd64.tar.gz"
-      sha256 "49690a2938ccc50ebcda9ece2fab5f14cd7ca447a2e9aace2509f3e63fed814f"
+      url "https://github.com/umbrella-org/messgr/releases/download/v0.2.0/messgr_0.2.0_linux_amd64.tar.gz"
+      sha256 "7729b39962eb9d3b0253411deedd50a8ee0a3311f4dc1008c7c0ae3b79af4c4b"
     end
     on_arm do
-      url "https://github.com/umbrella-org/messgr/releases/download/v0.1.0/messgr_0.1.0_linux_arm64.tar.gz"
-      sha256 "77eca5e0ce1bc44b3652546685d6f974aa1cced9056e1c04e2c44408deb3ebbc"
+      url "https://github.com/umbrella-org/messgr/releases/download/v0.2.0/messgr_0.2.0_linux_arm64.tar.gz"
+      sha256 "094353e8b6ec6aee5d77ab240c4cbd9e0ef9ec1916986e998d141133a801e259"
     end
   end
 
