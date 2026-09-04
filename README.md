@@ -1,5 +1,5 @@
-# umbrella-org Homebrew tap
+# umbrella-org homebrew tap
+
+Formulas are published here.
 
 `brew install umbrella-org/tap/messgr`
-
-Formulas are published here by `messgr`'s `release.yml` on each tagged release.
